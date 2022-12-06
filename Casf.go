@@ -23,31 +23,43 @@ func main() {
 	var i10 string = "X"
 
 	fmt.Println("Введите выражение ")
+
 	fmt.Scan(&a, &s, &b)
 
-	if a != i1 || a != i2 || a != i3 || a != i4 || a != i5 || a != i6 || a != i7 || a != i8 || a != i9 || a != i10 {
+	if len(a) > 4 && len(s) > 1 && len(b) > 4 {
+		fmt.Println("Несоотвествующее выражение")
+	}
+
+	if (a != i1 || a != i2 || a != i3 || a != i4 || a != i5 || a != i6 || a != i7 || a != i8 || a != i9 || a != i10) &&
+		(b != i1 || b != i2 || b != i3 || b != i4 || b != i5 || b != i6 || b != i7 || b != i8 || b != i9 || b != i10) {
 		x, _ := strconv.Atoi(a)
 		y, _ := strconv.Atoi(b)
-		if s == "+" {
-			result1 = x + y
-			fmt.Println(result1)
-		} else if s == "-" {
-			result1 = x - y
-			fmt.Println(result1)
-		} else if s == "*" {
-			result1 = x * y
-			fmt.Println(result1)
-		} else if s == "/" {
-			result1 = x / y
-			fmt.Println(result1)
+		if x >= 1 && x <= 10 && y >= 1 && y <= 10 {
+			if s == "+" {
+				result1 = x + y
+				fmt.Println(result1)
+			} else if s == "-" {
+				result1 = x - y
+				fmt.Println(result1)
+			} else if s == "*" {
+				result1 = x * y
+				fmt.Println(result1)
+			} else if s == "/" {
+				result1 = x / y
+				fmt.Println(result1)
+			} else {
+				fmt.Println("Выражение не является математической операцией")
+			}
 		} else {
-			fmt.Println("Выражение не является математической операцией")
+			fmt.Println("Данные числа не поддерживаются")
 		}
+	} else {
+		fmt.Println("Некорректное выражение")
 	}
 
 	if reflect.TypeOf(a).String() == "string" && reflect.TypeOf(b).String() == "string" {
-		if a == i1 || a == i2 || a == i3 || a == i4 || a == i5 || a == i6 || a == i7 || a == i8 || a == i9 || a == i10 {
-			if b == i1 || b == i2 || b == i3 || b == i4 || b == i5 || b == i6 || b == i7 || b == i8 || b == i9 || b == i10 {
+		if (a == i1 || a == i2 || a == i3 || a == i4 || a == i5 || a == i6 || a == i7 || a == i8 || a == i9 || a == i10) && (reflect.TypeOf(a).String() != "int") {
+			if (b == i1 || b == i2 || b == i3 || b == i4 || b == i5 || b == i6 || b == i7 || b == i8 || b == i9 || b == i10) && (reflect.TypeOf(a).String() != "int ") {
 				switch a {
 				case "I":
 					x = 1
