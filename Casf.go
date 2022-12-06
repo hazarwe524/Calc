@@ -50,8 +50,6 @@ func main() {
 			} else {
 				fmt.Println("Выражение не является математической операцией")
 			}
-		} else {
-			fmt.Println("Данные числа не поддерживаются")
 		}
 	} else {
 		fmt.Println("Некорректное выражение")
@@ -144,6 +142,26 @@ func main() {
 					fmt.Println("IX")
 				case 10:
 					fmt.Println("X")
+				case 11:
+					fmt.Println("XI")
+				case 12:
+					fmt.Println("XII")
+				case 13:
+					fmt.Println("XIII")
+				case 14:
+					fmt.Println("XIV")
+				case 15:
+					fmt.Println("XV")
+				case 16:
+					fmt.Println("XVI")
+				case 17:
+					fmt.Println("XVII")
+				case 18:
+					fmt.Println("XVIII")
+				case 19:
+					fmt.Println("XIX")
+				case 20:
+					fmt.Println("XX")
 				default:
 					fmt.Println("Такое число не поддерживается")
 
