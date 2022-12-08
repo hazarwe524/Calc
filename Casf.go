@@ -162,6 +162,166 @@ func main() {
 					fmt.Println("XIX")
 				case 20:
 					fmt.Println("XX")
+				case 21:
+					fmt.Println("XXI")
+				case 22:
+					fmt.Println("XXII")
+				case 23:
+					fmt.Println("XXIII")
+				case 24:
+					fmt.Println("XXIV")
+				case 25:
+					fmt.Println("XXV")
+				case 26:
+					fmt.Println("XXVI")
+				case 27:
+					fmt.Println("XXVII")
+				case 28:
+					fmt.Println("XXVIII")
+				case 29:
+					fmt.Println("XXIX")
+				case 30:
+					fmt.Println("XXX")
+				case 31:
+					fmt.Println("XXXI")
+				case 32:
+					fmt.Println("XXXII")
+				case 33:
+					fmt.Println("XXXIII")
+				case 34:
+					fmt.Println("XXXIV")
+				case 35:
+					fmt.Println("XXXV")
+				case 36:
+					fmt.Println("XXXVI")
+				case 37:
+					fmt.Println("XXXVII")
+				case 38:
+					fmt.Println("XXXVIII")
+				case 39:
+					fmt.Println("XXXIX")
+				case 40:
+					fmt.Println("XL")
+				case 41:
+					fmt.Println("XLI")
+				case 42:
+					fmt.Println("XLII")
+				case 43:
+					fmt.Println("XLIII")
+				case 44:
+					fmt.Println("XLIV")
+				case 45:
+					fmt.Println("XLV")
+				case 46:
+					fmt.Println("XLVI")
+				case 47:
+					fmt.Println("XLVII")
+				case 48:
+					fmt.Println("XLVIII")
+				case 49:
+					fmt.Println("XLIX")
+				case 50:
+					fmt.Println("LI")
+				case 51:
+					fmt.Println("LI")
+				case 52:
+					fmt.Println("LII")
+				case 53:
+					fmt.Println("LIII")
+				case 54:
+					fmt.Println("LIV")
+				case 55:
+					fmt.Println("LV")
+				case 56:
+					fmt.Println("LVI")
+				case 57:
+					fmt.Println("LVII")
+				case 58:
+					fmt.Println("LVIII")
+				case 59:
+					fmt.Println("LIX")
+				case 60:
+					fmt.Println("LX")
+				case 61:
+					fmt.Println("LXI")
+				case 62:
+					fmt.Println("LXII")
+				case 63:
+					fmt.Println("LXIII")
+				case 64:
+					fmt.Println("LXIV")
+				case 65:
+					fmt.Println("LXV")
+				case 66:
+					fmt.Println("LXVI")
+				case 67:
+					fmt.Println("LXVII")
+				case 68:
+					fmt.Println("LXVIII")
+				case 69:
+					fmt.Println("LXIX")
+				case 70:
+					fmt.Println("LXX")
+				case 71:
+					fmt.Println("LXXI")
+				case 72:
+					fmt.Println("LXXII")
+				case 73:
+					fmt.Println("LXXIII")
+				case 74:
+					fmt.Println("LXXIV")
+				case 75:
+					fmt.Println("LXXV")
+				case 76:
+					fmt.Println("LXXVI")
+				case 77:
+					fmt.Println("LXXVII")
+				case 78:
+					fmt.Println("LXXVIII")
+				case 79:
+					fmt.Println("LXXIX")
+				case 80:
+					fmt.Println("LXXX")
+				case 81:
+					fmt.Println("LXXXI")
+				case 82:
+					fmt.Println("LXXXII")
+				case 83:
+					fmt.Println("LXXXIII")
+				case 84:
+					fmt.Println("LXXXIV")
+				case 85:
+					fmt.Println("LXXXV")
+				case 86:
+					fmt.Println("LXXXVI")
+				case 87:
+					fmt.Println("LXXXVII")
+				case 88:
+					fmt.Println("LXXXVIII")
+				case 89:
+					fmt.Println("LXXXIX")
+				case 90:
+					fmt.Println("XC")
+				case 91:
+					fmt.Println("XCI")
+				case 92:
+					fmt.Println("XCII")
+				case 93:
+					fmt.Println("XCIII")
+				case 94:
+					fmt.Println("XCIV")
+				case 95:
+					fmt.Println("XCV")
+				case 96:
+					fmt.Println("XCVI")
+				case 97:
+					fmt.Println("XCVII")
+				case 98:
+					fmt.Println("XCVIII")
+				case 99:
+					fmt.Println("XCIX")
+				case 100:
+					fmt.Println("C")
 				default:
 					fmt.Println("Такое число не поддерживается")
 
